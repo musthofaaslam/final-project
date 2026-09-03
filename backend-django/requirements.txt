@@ -1,0 +1,12 @@
+Django>=5.0,<5.1
+gunicorn>=22.0.0 #WSGI HTTP server for UNIX
+django-cors-headers>=4.3.1 # Cross-Origin Resource Sharing support for Django
+djangorestframework>=3.15.1 # Django REST framework for building APIs
+Pillow>=10.2.0 # Image processing library for Python
+python-dotenv>=1.0.1 # Load environment variables from a .env file
+psycopg2-binary>=2.9.9 # PostgreSQL adapter for Python
+redis>=5.0.0 # Python client for Redis
+pymongo>=4.3.3 # Python driver for MongoDB
+djangorestframework-simplejwt==5.5.1 # JSON Web Token authentication for Django REST framework
+uvicorn>=0.23.2 # ASGI server for Python
+django-redis>=5.2.0 # Redis cache backend for Django
